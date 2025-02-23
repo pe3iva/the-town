@@ -24,4 +24,6 @@ int main(){
         std::cin >> user_day;
         std::cin >> user_year;
     }while(user_day < 0 && user_day > 31 && user_month < 0 && user_month > 12 && user_year <= 1902 && user_year > 2025);
+
+    std::cout << "Welcome " << user_name << "!" << '\n';
 }
